@@ -21,7 +21,7 @@ def start(message):
     if str(message.chat.id) not in subscriber:
         bot.reply_to(message, "❌ Only For authorized users! Contact Admin @FNxDANGER")
         return
-    bot.reply_to(message, "<b>Welcome To Mash  CC Checker\n Please send the Combo For check . \n\n Must Join @FNxDANGER\nDeveloped By @FNXDANGER </b>")
+    bot.reply_to(message, "<b>Welcome To Mash  CC Checker\n Please send the Combo For check . \n\n Must Join https://t.me/DANGERZONE7\nDeveloped By @FNXDANGER </b>")
 
 @bot.message_handler(content_types=["document"])
 def main(message):
