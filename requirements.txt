@@ -1,0 +1,5 @@
+telethon
+telebot
+aiohttp
+pymongo
+flask_restful
